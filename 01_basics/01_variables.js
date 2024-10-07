@@ -2,7 +2,7 @@ const accountId = 1234
 let accountEmail = "contact@bhavikbhuva.com"
 var accountPassword = "321"
 accountCity = "Berlin"
-accountState;   
+// accountState;   
 
 /*
 Prefer not to use var
