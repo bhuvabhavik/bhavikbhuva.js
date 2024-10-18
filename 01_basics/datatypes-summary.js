@@ -47,6 +47,27 @@ console.log(userOne.email); //bhavik@microsoft.com
 console.log(userTwo.email); //bhavik@microsoft.com
 //because of pass by reference in case of non primitive data types
 
+const username = {
+    "name" : "Bhavik",
+    "isloggedIn" : true,
+}
+
+username.isloggedIn = false
+username.lastname = "Bhuva" // it will be addded in username
+console.log(username);
+console.log(username.name);
+console.log(username['isloggedIn']);
+
+
+let today = new Date();
+console.log(today)
+console.log(today.getDate())
+console.log(today.getUTCDate())
+
+
+//arrays 
+
+
 
 
 
