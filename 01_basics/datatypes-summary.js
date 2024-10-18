@@ -67,6 +67,9 @@ console.log(today.getUTCDate())
 
 //arrays 
 
+let heroes = ["a","b","c",true]
+console.log(heroes)
+console.log(heroes.at(1))
 
 
 
